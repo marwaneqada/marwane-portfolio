@@ -5,7 +5,7 @@ export const translations: Record<"en" | "fr", Translations> = {
     personalInfo: {
       title: "Full-Stack Developer",
       subtitle: "Building modern web applications, APIs, and clean user interfaces.",
-      about: "I am a passionate Full-Stack Developer with a strong focus on building scalable web applications, robust backend systems, and engaging user interfaces. I enjoy tackling complex problems and delivering high-quality, maintainable code.",
+      about: "I'm a full-stack developer focused on building useful, reliable, and maintainable products. I enjoy understanding how a product should work, shaping the logic behind it, and turning it into clear interfaces and practical software.",
     },
     nav: {
       about: "About",
@@ -35,12 +35,12 @@ export const translations: Record<"en" | "fr", Translations> = {
       sectionTitleStart: "Engineering software with ",
       sectionTitleHighlight: "purpose",
       sectionTitleEnd: " and precision.",
-      description: "I am a passionate Full-Stack Developer with a strong focus on building scalable web applications, robust backend systems, and engaging user interfaces. I enjoy tackling complex problems and delivering high-quality, maintainable code.",
+      description: "I'm a full-stack developer focused on building useful, reliable, and maintainable products. I enjoy understanding how a product should work, shaping the logic behind it, and turning it into clear interfaces and practical software.",
       highlights: [
-        { title: "Full-Stack Native", desc: "Fluent across the entire web stack." },
-        { title: "Architectural Mindset", desc: "Focus on scalability and clean patterns." },
-        { title: "Performance First", desc: "Optimizing for speed and efficiency." },
-        { title: "Constant Learner", desc: "Always exploring emerging technologies." },
+        { title: "Problem Solving", desc: "Breaking complex requirements into clear and practical solutions." },
+        { title: "Quality First", desc: "Writing clean, maintainable code that can evolve over time." },
+        { title: "Product Thinking", desc: "Building with the user experience and business goal in mind." },
+        { title: "Continuous Improvement", desc: "Learning, refining, and improving the way software is built." },
       ],
     },
     skills: {
@@ -84,11 +84,11 @@ export const translations: Record<"en" | "fr", Translations> = {
     },
     contact: {
       sectionSub: "Let's Connect",
-      sectionTitleStart: "Ready to bring your ",
-      sectionTitleHighlight: "next big idea",
-      sectionTitleEnd: " to life?",
-      description: "I'm currently open to new opportunities, projects, or just a friendly chat about tech and engineering.",
-      sayHello: "Say Hello",
+      sectionTitleStart: "Open to full-stack and ",
+      sectionTitleHighlight: "backend",
+      sectionTitleEnd: " opportunities.",
+      description: "If you're looking for someone who can work on APIs, dashboards, integrations, workflows, and reliable production systems, feel free to reach out.",
+      sayHello: "Email Me",
       connectOnLinkedin: "Connect on LinkedIn",
     },
     footer: {
@@ -100,7 +100,7 @@ export const translations: Record<"en" | "fr", Translations> = {
     personalInfo: {
       title: "Développeur Full-Stack",
       subtitle: "Création d'applications web modernes, d'API et d'interfaces utilisateur épurées.",
-      about: "Je suis un Développeur Full-Stack passionné, spécialisé dans la création d'applications web évolutives, de systèmes backend robustes et d'interfaces utilisateur engageantes. J'aime résoudre des problèmes complexes et fournir un code maintenable de haute qualité.",
+      about: "Je suis un développeur full-stack concentré sur la création de produits utiles, fiables et maintenables. J'aime comprendre comment un produit doit fonctionner, structurer la logique qui le soutient, puis la transformer en interfaces claires et en logiciels pratiques.",
     },
     nav: {
       about: "À propos",
@@ -128,14 +128,14 @@ export const translations: Record<"en" | "fr", Translations> = {
     about: {
       sectionSub: "À Propos",
       sectionTitleStart: "Concevoir des logiciels avec ",
-      sectionTitleHighlight: "détermination",
+      sectionTitleHighlight: "objectif",
       sectionTitleEnd: " et précision.",
-      description: "Je suis un Développeur Full-Stack passionné par la création d'applications web évolutives, de systèmes backend robustes et d'interfaces utilisateur engageantes. J'aime résoudre des problèmes complexes et fournir un code maintenable de haute qualité.",
+      description: "Je suis un développeur full-stack concentré sur la création de produits utiles, fiables et maintenables. J'aime comprendre comment un produit doit fonctionner, structurer la logique qui le soutient, puis la transformer en interfaces claires et en logiciels pratiques.",
       highlights: [
-        { title: "Natif Full-Stack", desc: "À l'aise sur l'ensemble de la pile web." },
-        { title: "Esprit d'Architecture", desc: "Focus sur l'évolutivité et les modèles propres." },
-        { title: "Performance Avant Tout", desc: "Optimisation pour la vitesse et l'efficacité." },
-        { title: "Apprenant Constant", desc: "Toujours à la découverte des technologies émergentes." },
+        { title: "Résolution de Problèmes", desc: "Transformer des besoins complexes en solutions claires et pratiques." },
+        { title: "Qualité d'Abord", desc: "Écrire un code propre et maintenable qui peut évoluer dans le temps." },
+        { title: "Vision Produit", desc: "Construire avec l'expérience utilisateur et l'objectif métier en tête." },
+        { title: "Amélioration Continue", desc: "Apprendre, affiner et améliorer la manière de construire les logiciels." },
       ],
     },
     skills: {
@@ -179,11 +179,11 @@ export const translations: Record<"en" | "fr", Translations> = {
     },
     contact: {
       sectionSub: "Restons en Contact",
-      sectionTitleStart: "Prêt à donner vie à votre ",
-      sectionTitleHighlight: "prochaine grande idée",
-      sectionTitleEnd: " ?",
-      description: "Je suis actuellement ouvert à de nouvelles opportunités, des projets, ou simplement une discussion amicale sur la technologie et l'ingénierie.",
-      sayHello: "Dire Bonjour",
+      sectionTitleStart: "Ouvert aux opportunités full-stack et ",
+      sectionTitleHighlight: "backend",
+      sectionTitleEnd: ".",
+      description: "Si vous recherchez quelqu'un capable de travailler sur des APIs, dashboards, intégrations, workflows et systèmes de production fiables, n'hésitez pas à me contacter.",
+      sayHello: "Email",
       connectOnLinkedin: "Se connecter sur LinkedIn",
     },
     footer: {
