@@ -4,8 +4,8 @@ export const profile: Profile = {
   name: "Marwane Qada",
   email: "marwaneqada@gmail.com",
   cv: {
-    en: "/Cv/Marwane Qada CV English.pdf",
-    fr: "/Cv/Marwane Qada CV Français.pdf",
+    en: "/cv/Marwane Qada CV English.pdf",
+    fr: "/cv/Marwane Qada CV Français.pdf",
   },
   socials: [
     {
