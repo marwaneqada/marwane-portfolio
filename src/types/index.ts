@@ -52,6 +52,7 @@ export interface Project {
   imagePath?: string;
   githubUrl?: string;
   liveUrl?: string;
+  repos?: { label: string; url: string }[];
   confidentialityNote?: LocalizedString;
   keyHighlights?: LocalizedStringArray;
   roleSummary?: LocalizedString;

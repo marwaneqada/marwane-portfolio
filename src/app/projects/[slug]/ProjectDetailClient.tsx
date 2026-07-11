@@ -210,7 +210,7 @@ export default function ProjectDetailClient({ project }: { project: Project }) {
             </div>
           )}
 
-          {(project.githubUrl || project.liveUrl) && (
+          {(project.githubUrl || project.liveUrl || project.repos?.length) && (
             <div className="flex flex-wrap gap-4">
               {project.liveUrl && (
                 <a
@@ -223,17 +223,30 @@ export default function ProjectDetailClient({ project }: { project: Project }) {
                   {t.projects.liveDemo}
                 </a>
               )}
-              {project.githubUrl && (
-                <a
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center gap-2 bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-6 py-3 rounded-xl font-semibold hover:bg-slate-800 dark:hover:bg-slate-100 transition-all shadow-md"
-                >
-                  <FaGithub size={18} />
-                  {t.projects.code}
-                </a>
-              )}
+              {project.repos?.length
+                ? project.repos.map((repo) => (
+                    <a
+                      key={repo.url}
+                      href={repo.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex items-center gap-2 bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-6 py-3 rounded-xl font-semibold hover:bg-slate-800 dark:hover:bg-slate-100 transition-all shadow-md"
+                    >
+                      <FaGithub size={18} />
+                      {repo.label}
+                    </a>
+                  ))
+                : project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex items-center gap-2 bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-6 py-3 rounded-xl font-semibold hover:bg-slate-800 dark:hover:bg-slate-100 transition-all shadow-md"
+                    >
+                      <FaGithub size={18} />
+                      {t.projects.code}
+                    </a>
+                  )}
             </div>
           )}
         </section>
